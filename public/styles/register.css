@@ -1,0 +1,87 @@
+body{
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #262626;
+	color:#f8fafc;
+}
+.title{
+	font-size: 2.3em;
+	justify-content: center;
+	display: flex;
+	margin: 50px;
+	font-weight: bold;
+}
+.main{
+    width: 600px;
+    height: fit-content;
+	padding: 20px;
+	background-color: #1c1917;
+    border-radius: 20px;
+    box-shadow: 5px 10px 20px black;
+}
+.minor-title{
+	color: rgb(170, 0, 0);
+	text-align: center;
+	font-weight: 100;
+}
+.sign-in{
+    position: relative;
+    width: 100%;
+}
+
+.input-container{
+	display: grid;
+	grid-template-columns: repeat(2,1fr);
+}
+input{
+	color: #f8fafc;
+    width: 60%;
+	height: 10px;
+	background: #262626;
+	justify-content: center;
+	display: flex;
+	margin: 20px auto;
+	padding: 12px;
+	border: none;
+	outline: none;
+	border-radius: 5px; 
+}
+button{
+    width: 60%;
+	height: 40px;
+	margin: 10px auto;
+	justify-content: center;
+	display: block;
+	color: #fff;
+    background-color: grey;
+	font-size: 1em;
+	font-weight: bold;
+	margin-top: 30px;
+	outline: none;
+	border: none;
+	border-radius: 5px;
+	transition:all .1s ease-in;
+	cursor: pointer;
+}
+button:hover{
+	background-color: #262626;
+	transition:all .1s ease-in-out;
+}
+
+.login{
+	color: #f8fafc;
+    text-decoration: none;
+	justify-content: center;
+    text-align: center;
+	display: flex;
+	font-weight: bold;
+	transition: all ease-in-out 0.1s;
+}
+.login:hover{
+	color: grey;
+	transition: all ease-in-out 0.1s;
+}

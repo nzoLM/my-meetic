@@ -1,0 +1,112 @@
+body{
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #262626;
+	color:#f8fafc;
+}
+/* h1{
+    -webkit-text-stroke: 1px blue;
+    font-size: 40px;
+    color: rgb(255, 255, 0);
+} */
+header{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    background-color: #1c1917;
+    color: #f8fafc;
+}
+form{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#loisir{
+    display: flex;
+    flex-direction: column;
+}
+input[type=search]{
+	background-color: #262626;
+	color: #f8fafc;
+	margin: 20px auto;
+	padding: 10px;
+	border: none;
+	outline: none;
+	border-radius: 5px; 
+}
+input[type=number]{
+    width: 3em;
+}
+label{
+    font-size: large;
+}
+.location.container{
+    display: flex;
+    flex-direction: column;
+}
+main{
+    flex-grow: 1;
+    min-height: 100%;
+    width: min-content;
+}
+.card.content{
+    display: flex;
+    border: 2px dashed black ;
+    padding: 10px;
+    box-shadow: 6px 6px 0px 4px black;
+}
+
+.picture{
+    width: 100px;
+    height: 100px;
+}
+
+.carrousel-container {
+    width: 80%;
+    min-width: 600px;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    margin: auto;
+}
+
+.carrousel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.card {
+    min-width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    color: #f8fafc;
+    text-align: center;
+}
+
+.picture {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translateY(-50%);
+}
+
+.nav-button {
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
